@@ -1,5 +1,33 @@
 body {
     color: white;
     background-color: black
-     margin; 0px;
+    margin; 0px;
+     font-family: "ChaKra Petch",sans-serif;
+}
      
+
+header {
+    border-bottom: solid 2px rgb(8, 102, 53)
+    padding: 20px;
+    front-size:32px;
+    color:rgb(8, 102, 53);
+}
+.chamada {
+    background: rgb(187, 334, 128);
+    padding: bottom 80px;
+    display: flex;
+justify-content: center;
+}
+.chamada.texto {
+    margin-right: 5%;
+}
+h1 { 
+    front-size: 40px;
+}
+p {
+    front: size: 20px;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+gap: 10px;
